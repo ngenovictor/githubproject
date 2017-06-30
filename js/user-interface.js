@@ -6,6 +6,7 @@ $(document).ready(function(){
 		event.preventDefault();
 		var inputtedUsername = $('#git_username').val()
 		getUsernames(inputtedUsername);
+		getRepos(inputtedUsername);
 
 	});
 });

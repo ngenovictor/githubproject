@@ -1,5 +1,7 @@
 # GITHUB API Project
 
-##Specs
+## Specs
 1. Create a function to put variables into github API
 2. 
+
+## Setup Instructions
