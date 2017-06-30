@@ -19,11 +19,12 @@ exports.getRepos = function(username){
 		
 		$('div#repos table tbody').text('');		
 		for(var i=0;i<response.length;i++){
+			var created_at = moment(response[i].created_at,'h:mm a')
 			$('div#repos table tbody').append(
 				`<tr>
 					<td><a target="_blank" href='${response[i].git_url}'>${response[i].name}</a></td>
 					<td>${response[i].language}</td>
-					<td>${response[i].created_at}+</td>
+					<td>${created_at}+</td>
 					<td>${response[i].updated_at}+</td>
 					</tr>`);
 		}
