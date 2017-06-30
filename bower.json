@@ -1,0 +1,27 @@
+{
+  "name": "gitproject",
+  "authors": [
+    "Victor Ngeno <ngenovictor321@gmail.com>"
+  ],
+  "description": "\"Api learning project. Intent on using Git API to do user Lookup\"",
+  "main": "",
+  "keywords": [
+    "'API",
+    "Github",
+    "Ip",
+    "Moringa",
+    "School\""
+  ],
+  "license": "MIT",
+  "homepage": "https://ngenovictor.github.io/githubproject",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
