@@ -7,7 +7,6 @@ exports.getUsernames = function(username){
     $('div#results').append('<span class="name">'+response["name"]+'</span>');
 
 
-
   }).fail(function(error){
     console.log(error.responseJSON.message);
   });
